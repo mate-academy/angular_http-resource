@@ -12,7 +12,7 @@ Student powinien:
 
 - uruchomić przygotowany `json-server`,
 - zastąpić statyczny sygnał z listą misji przez `httpResource`,
-- pobrać dane z endpointu `/missions`,
+- pobrać dane z endpointu `http://localhost:4000/missions`,
 - określić oczekiwany typ odpowiedzi jako `Mission[]`,
 - ustawić pustą tablicę jako `defaultValue`,
 - odczytać dane resource w szablonie za pomocą `value()`,
